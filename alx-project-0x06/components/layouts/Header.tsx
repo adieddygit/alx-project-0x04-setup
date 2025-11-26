@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 const Header: React.FC = () => {
 
 const pathname = usePathname();
-const  count  = useSelector((state: RootState) => state.counter.value);
+const count = useSelector((state: RootState) => state.counter.value);
 
   return (
     <header className="fixed w-full bg-white shadow-md">
